@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 3rem;
+}
+
+.message {
+    margin-bottom: 2rem;
+}
+
+.contactLink {
+    display: block;
+}
+
+.contactButton {
+    margin: 0 auto;
+    width: fit-content;
+    padding: 1rem 2rem;
+    font-family: 'SourceCodePro';
+    color: var(--color-green);
+    font-size: 1rem;
+    font-weight: 600;
+    border: 1px solid var(--color-green);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.contactButton:hover {
+    transform: scale(1.1);
+}
+
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 2.25rem;
+    }
+}

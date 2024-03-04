@@ -1,0 +1,29 @@
+.headerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hello {
+    font-family: 'SourceCodePro';
+    color: var(--color-green);
+    margin-bottom: 1rem;
+}
+
+.position {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.positionDescription {
+    font-size: 1rem;
+    color: var(--color-slate);
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 1024px) {
+    .navBar {
+        display: none;
+    }
+}

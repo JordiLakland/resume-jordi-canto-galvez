@@ -1,0 +1,10 @@
+.footer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.copy {
+    font-size: 0.75rem;
+    margin: 0 auto;
+}

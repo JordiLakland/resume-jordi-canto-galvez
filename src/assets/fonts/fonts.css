@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Regular'), url('./Roboto-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Medium'), url('./Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Bold'), url('./Roboto-Bold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SourceCodePro';
+    src: local('SourceCodePro'),
+        url('./SourceCodePro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

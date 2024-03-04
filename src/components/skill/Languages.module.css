@@ -1,0 +1,44 @@
+.languagesContainer {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.languagesHeader {
+    width: 210px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-slate);
+}
+
+.languagesContent {
+    width: 100%;
+}
+
+.languageContent {
+    margin-bottom: 0.875rem;
+}
+
+.languageLabel {
+    font-weight: 500;
+    color: var(--color-white);
+}
+
+
+.caretRightIcon {
+    height: 0.75rem;
+    width: 0.75rem;
+    fill: var(--color-green);
+    margin-right: 0.5rem;
+}
+
+
+@media (max-width: 768px) {
+    .languagesContainer {
+        display: block;
+    }
+
+    .languagesHeader {
+        margin-bottom: 0.875rem;
+    }
+}

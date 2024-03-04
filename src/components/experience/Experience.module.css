@@ -1,0 +1,99 @@
+.sectionCardContainer {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    padding: 1rem;
+}
+
+.sectionCardContainer:hover {
+    background-color: var(--color-white-opacity);
+    border-radius: 1rem;
+}
+
+.sectionCardHeader {
+    width: 210px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-slate);
+}
+
+.sectionCardContent {
+    width: 100%;
+}
+
+.title {
+
+    font-weight: 600;
+    color: var(--color-white);
+    margin-bottom: 1rem;
+}
+
+.roleFunction {
+    margin-bottom: 0.75rem;
+    display: flex;
+    color: var(--color-slate);
+    font-size: 0.875rem;
+}
+
+.caretRightIcon {
+    height: 0.75rem;
+    width: 0.75rem;
+    fill: var(--color-green);
+    margin-right: 0.5rem;
+}
+
+.label {
+    display: inline-block;
+    font-size: 0.875rem;
+    padding: 0.25rem 0.5rem;
+    background: var(--color-green-opacity);
+    margin: 0.25rem 0.5rem 0.25rem 0;
+    border-radius: 1rem;
+    color: var(--color-green);
+}
+
+.companyLink {
+    color: none;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.companyLink:hover .roleFunction,
+.companyLink:hover .sectionCardHeader {
+    color: var(--color-white);
+}
+
+.companyLink:hover .title {
+    color: var(--color-green);
+}
+
+
+@media (max-width: 1024px) {
+    .sectionCardContainer {
+        padding: 0;
+    }
+
+    .sectionCardContainer:hover {
+        background-color: transparent;
+        border-radius: 1rem;
+    }
+
+    .companyLink {
+        cursor: initial;
+    }
+
+    .companyLink:hover .roleFunction,
+    .companyLink:hover .sectionCardHeader {
+        color: var(--color-slate);
+    }
+
+    .companyLink:hover .title {
+        color: var(--color-white);
+    }
+}
+
+@media (max-width: 768px) {
+    .sectionCardContainer {
+        display: block;
+    }
+}

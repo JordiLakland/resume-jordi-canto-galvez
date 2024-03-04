@@ -1,0 +1,14 @@
+.socialLinks {
+    display: flex;
+    gap: 1rem;
+}
+
+.icon {
+    height: 1.3rem;
+    width: 1.3rem;
+    fill: var(--color-slate);
+}
+
+.icon:hover {
+    fill: var(--color-white);
+}

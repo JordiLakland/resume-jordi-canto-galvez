@@ -1,0 +1,42 @@
+.menuItem {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.navLabel {
+    font-weight: 600;
+    color: var(--color-slate);
+}
+
+.active .navLabel {
+    color: var(--color-white);
+}
+
+.active .navIndicator {
+    width: 4rem;
+    background-color: #e2e8f0;
+
+}
+
+.navIndicator {
+    display: block;
+    height: 2px;
+    width: 2rem;
+    background-color: var(--color-slate);
+    margin-right: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+li {
+    list-style: none;
+}
+
+.menuItem:hover .navIndicator {
+    width: 4rem;
+    background-color: #e2e8f0;
+}
+
+.menuItem:hover .navLabel {
+    color: var(--color-white);
+}
