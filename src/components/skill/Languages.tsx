@@ -18,12 +18,12 @@ export default function Languages(props: LanguagesProps) {
                 <div className={styles.languageContent}>
                     <CaretRightIcon className={styles.caretRightIcon} fill="#000" />
                     <span className={styles.languageLabel}>Spanish: </span>
-                    <span className={styles.languageDescription}>Bilingual or Native Proficiency</span>
+                    <span className={styles.languageDescription}>Native Proficiency</span>
                 </div>
                 <div className={styles.languageContent}>
                     <CaretRightIcon className={styles.caretRightIcon} fill="#000" />
                     <span className={styles.languageLabel}>Catalan: </span>
-                    <span className={styles.languageDescription}>Bilingual or Native Proficiency</span>
+                    <span className={styles.languageDescription}>Native Proficiency</span>
                 </div>
                 <div className={styles.languageContent}>
                     <CaretRightIcon className={styles.caretRightIcon} fill="#000" />

@@ -14,34 +14,33 @@ export default function About(props: AboutProps) {
         <div className={styles.container}>
             <img src={ProfilePhoto} alt="Jordi Cantó Profile Photo" className={styles.profilePhoto} />
             <p>
-                {`Based in Trondheim for the past two years, my journey into the tech world began in 
-                the 90s when my father brought home an IBM PC. This early exposure ignited a curiosity 
-                in technology that has grown ever since. Fast forward to 2015, I embarked on my 
-                professional career, but it wasn’t until 2019 that I took a leap into the dynamic 
-                world of startups. I've thrived on the challenge of growing with various projects 
-                from their inception to rapid maturity, including a stint with a startup accelerated 
-                by YCombinator in the W22 batch.`}
+                {`Based in Trondheim for the past two years, my journey into the tech world began 
+                in the '90s with the purchase of an IBM PC for our home. This early exposure to 
+                technology ignited a lifelong curiosity that has only grown over the years. 
+                Pursuing this interest, I studied Technical Engineering in Computer Management at 
+                the University of Alicante, laying a solid foundation for my career in technology. 
+                I embarked on my professional career in 2015, finding my true calling in the vibrant 
+                startup ecosystem in 2019. I've thrived on the challenge of growing various projects 
+                from their inception to rapid maturity.`}
             </p>
             <p>
-                {`While comfortable working on end-to-end (E2E) development as a full-stack engineer,
-                 I find a special joy in focusing on front-end challenges. This blend of skills 
-                 has afforded me the opportunity to contribute to diverse projects, including a 
-                 particularly inspiring one that was propelled by YCombinator. 
-                 The combination of its technological intricacies and the momentum from 
-                 YCombinator has provided a rich and rewarding journey.`}
+                {`Adept at end-to-end development as a full-stack engineer, I find special joy in 
+                tackling front-end challenges. This blend of skills has allowed me to contribute 
+                meaningfully to a wide array of projects, with the technological complexities 
+                therein offering an exceptionally rewarding journey.`}
             </p>
             <p>
-                {`Living in Norway has significantly enhanced my appreciation for the great outdoors, 
-                especially bouldering, hiking, and skiing, which have become my favorite activities. 
-                Engaging in these pursuits not only presents me with physical challenges but also 
-                serves as a revitalizing break from my professional endeavors, offering a perfect 
-                balance to my life.`}
+                {`Living in Norway has deepened my appreciation for the great outdoors, with 
+                bouldering, hiking, and skiing becoming cherished activities. These pursuits not 
+                only challenge me physically but also offer a revitalizing break from the digital 
+                world, ensuring a well-rounded life.`}
             </p>
             <p>
-                {`Looking ahead, I am eager to continue growing as a developer, with a keen interest in
-                exploring the fascinating realm of AI. The blend of my startup experience, 
-                front-end specialization, and adventurous spirit positions me uniquely to contribute 
-                to and thrive in technology-driven environments.`}
+                {`Looking forward, my eagerness to continue evolving as a developer is stronger 
+                than ever, particularly towards the burgeoning field of AI. My blend of startup 
+                experience, proficiency in front-end development, and adventurous spirit uniquely 
+                positions me to thrive in and contribute to the ever-changing landscape of 
+                technology.`}
             </p>
         </div >
     )

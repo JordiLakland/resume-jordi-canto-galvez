@@ -20,12 +20,12 @@ export default function Header(props: HeaderProps) {
                 </div>
                 <h1>Jordi Cantó Gálvez.</h1>
                 <div className={styles.position}>
-                    Full Stack Enginier at Trackingplan
+                    Full-Stack Engineer at Trackingplan
                 </div>
                 <div className={styles.positionDescription}>
-                    {`I architect and implement seamless, full-stack solutions that power engaging and 
-                accessible digital experiences, bridging the gap between complex back-end logic 
-                and intuitive front-end designs.`}
+                    {`Full-Stack Engineer with a passion for front-end challenges and a background 
+                    in Computer Management Engineering from the University of Alicante. 
+                    Enjoys blending technology with outdoor adventures.`}
                 </div>
 
                 <NavBar className={styles.navBar} />

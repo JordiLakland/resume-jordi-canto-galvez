@@ -50,7 +50,9 @@ function SectionCard(props: SectionCardProps) {
                     <ul>
                         {roleFunctions.map((roleFunction, index) =>
                             <li key={index} className={styles.roleFunction}>
-                                <CaretRightIcon className={styles.caretRightIcon} fill="#000" />
+                                <div>
+                                    <CaretRightIcon className={styles.caretRightIcon} fill="#000" />
+                                </div>
                                 {roleFunction}
                             </li>
                         )}
