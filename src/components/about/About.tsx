@@ -8,6 +8,8 @@ interface AboutProps {
 }
 
 export default function About(props: AboutProps) {
+    const { } = props;
+
     return (
         <div className={styles.container}>
             <img src={ProfilePhoto} alt="Jordi Cantó Profile Photo" className={styles.profilePhoto} />
