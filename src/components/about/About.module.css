@@ -11,3 +11,7 @@ p {
     margin: 0 auto;
     margin-bottom: 1rem;
 }
+
+.highlight {
+    color: var(--color-white);
+}

@@ -9,11 +9,11 @@ export interface ExperienceData {
 
 export const trackingplanData: ExperienceData = {
     period: "Dec 2021 - Present",
-    role: "Frontend and Backend Software Engineer",
+    role: "Front-End and Back-End Software Engineer",
     company: "Trackingplan (Y Combinator W22)",
     companyLink: "https://trackingplan.com/",
     roleFunctions: [
-        "Frontend Development - Implementation of user interfaces using React and TypeScript within the TrackingPlan development team. Providing interactive and high-performance solutions that enhance user experience.",
+        "Front-End Development - Implementation of user interfaces using React and TypeScript within the Trackingplan development team. Providing interactive and high-performance solutions that enhance user experience.",
         "End-to-End Project Management - Leadership in the full-scale development of projects, from conceptualization based on specifications and design to final implementation, utilizing Python for Back-End development.",
         "Code Review - Active participation in code reviews, committed to maintaining high quality standards and promoting best practices within the development team.",
         "Deploy Management - Responsibility for managing automatic deploys using AWS CodePipeline, ensuring continuous and stable deliveries in both development and production environments.",
