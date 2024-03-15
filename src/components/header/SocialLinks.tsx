@@ -15,7 +15,7 @@ export default function SocialLinks(props: SocialLinksProps) {
     return (
         <div className={styles.socialLinks}>
             <a
-                href="www.linkedin.com/in/jordi-cantó-gálvez-455088a6"
+                href="https://www.linkedin.com/in/jordi-canto-galvez-455088a6"
                 target="_blank"
                 rel="noreferrer"
             >
