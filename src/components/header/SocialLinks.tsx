@@ -14,7 +14,11 @@ export default function SocialLinks(props: SocialLinksProps) {
 
     return (
         <div className={styles.socialLinks}>
-            <a href="https://www.linkedin.com/in/jordi-cant%C3%B3-g%C3%A1lvez-455088a6?jobid=1234&lipi=urn%3Ali%3Apage%3Ad_jobs_easyapply_pdfgenresume%3Bcfxi9QnKQ96MQRhwHbMFig%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_jobs_easyapply_pdfgenresume-v02_profile" target="_blank" rel="noreferrer">
+            <a
+                href="www.linkedin.com/in/jordi-cantó-gálvez-455088a6"
+                target="_blank"
+                rel="noreferrer"
+            >
                 <LinkedinIcon className={styles.icon} />
             </a>
             <a href="https://github.com/JordiLakland" target="_blank" rel="noreferrer">
@@ -22,6 +26,13 @@ export default function SocialLinks(props: SocialLinksProps) {
             </a>
             <a href="https://www.instagram.com/jordicantogalvez/" target="_blank" rel="noreferrer">
                 <InstagramIcon className={styles.icon} />
+            </a>
+            <a
+                href="https://jordicantogalvez.dev/resume.pdf"
+                target="_blank"
+                rel="noreferrer"
+            >
+                <span className={styles.resumeLabel}>Resume</span>
             </a>
         </div>
     )

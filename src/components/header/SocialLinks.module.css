@@ -3,6 +3,11 @@
     gap: 1rem;
 }
 
+.socialLinks a {
+    display: flex;
+    align-items: center;
+}
+
 .icon {
     height: 1.3rem;
     width: 1.3rem;
@@ -11,4 +16,20 @@
 
 .icon:hover {
     fill: var(--color-white);
+}
+
+.resumeLabel {
+    display: inline-block;
+    color: var(--color-slate);
+    font-family: 'SourceCodePro';
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+    padding: 4px 6px;
+    border: 2px solid var(--color-slate);
+    border-radius: 0.5rem;
+}
+
+.resumeLabel:hover {
+    color: var(--color-white);
+    border-color: var(--color-white);
 }
