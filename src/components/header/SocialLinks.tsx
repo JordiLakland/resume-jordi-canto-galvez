@@ -28,7 +28,7 @@ export default function SocialLinks(props: SocialLinksProps) {
                 <InstagramIcon className={styles.icon} />
             </a>
             <a
-                href="https://jordicantogalvez.dev/resume.pdf"
+                href="https://www.jordicantogalvez.dev/resume.pdf"
                 target="_blank"
                 rel="noreferrer"
             >
