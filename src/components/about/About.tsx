@@ -3,12 +3,7 @@ import ProfilePhoto from '../../assets/profile-photo.png';
 import styles from './About.module.css';
 
 
-interface AboutProps {
-    // Empty
-}
-
-export default function About(props: AboutProps) {
-    const { } = props;
+export default function About() {
 
     return (
         <div className={styles.container}>
@@ -26,14 +21,14 @@ export default function About(props: AboutProps) {
                 is stronger than ever, with a keen interest in the expanding field of AI.`}
             </p>
             <p>
-                {`As a `}<span className={styles.highlight}>full-stack engineer</span>{`, 
+                {`As a `}<span className={styles.highlight}>Full-Stack developer</span>{`, 
                 I possess a comprehensive command of development from start to finish, but I find 
-                special joy in tackling front-end challenges. This combination of skills has enabled 
+                special joy in tackling front-end challenges using React and TypeScript. This combination of skills has enabled 
                 me to contribute significantly to projects, whose technological complexity has 
                 resulted in an extraordinarily rewarding experience.`}
             </p>
             <p>
-                {`For the past two years, I have lived in `}<span className={styles.highlight}>Trondheim, Norway</span>
+                {`For the past three years, I have lived in `}<span className={styles.highlight}>Trondheim, Norway</span>
                 {`, where my appreciation for nature has deepened. Activities such as bouldering, hiking, and 
                 skiing have become cherished pastimes. These adventures not only challenge me physically but
                   also provide a revitalizing break from the digital world, ensuring a vital balance.`}

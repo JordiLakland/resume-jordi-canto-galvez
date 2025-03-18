@@ -9,7 +9,7 @@ export interface ExperienceData {
 
 export const trackingplanData: ExperienceData = {
     period: "Dec 2021 - Present",
-    role: "Front-End and Back-End Software Engineer",
+    role: "Full-Stack Developer",
     company: "Trackingplan (Y Combinator W22)",
     companyLink: "https://trackingplan.com/",
     roleFunctions: [
@@ -25,7 +25,7 @@ export const trackingplanData: ExperienceData = {
 
 export const prensalinkData: ExperienceData = {
     period: "Apr 2019 - Dec 2021",
-    role: "Full Stack developer",
+    role: "Full-Stack Developer",
     company: "PrensaLink",
     companyLink: "https://prensalink.com/",
     roleFunctions: [

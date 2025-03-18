@@ -8,15 +8,7 @@ import CaretRightIcon from '../icons/CaretRight';
 
 import styles from './Experience.module.css';
 
-
-interface ExperienceProps {
-    // Empty
-}
-
-export default function Experience(props: ExperienceProps) {
-
-    const { } = props;
-
+export default function Experience() {
     return (
         <div className={styles.container}>
             <SectionCard experienceData={trackingplanData} />
