@@ -8,7 +8,7 @@ export interface ExperienceData {
 }
 
 export const trackingplanData: ExperienceData = {
-    period: "Dec 2021 - Present",
+    period: "Dec 2021 - Apr 2025",
     role: "Full-Stack Developer",
     company: "Trackingplan (Y Combinator W22)",
     companyLink: "https://trackingplan.com/",
