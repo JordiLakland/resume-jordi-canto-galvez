@@ -4,41 +4,35 @@ import styles from './About.module.css';
 
 
 export default function About() {
-
     return (
         <div className={styles.container}>
             <img src={ProfilePhoto} alt="Jordi Cantó Profile Photo" className={styles.profilePhoto} />
             <p>
-                {`My journey into the tech world began in the '90s with the acquisition of an 
-                IBM PC for our home. This early exposure to technology sparked a curiosity that 
-                has grown over the years. Following this interest, I graduated in `}
-                <span className={styles.highlight}>Technical Engineering in Computer Management from
-                    the University of Alicante</span>{`, establishing a 
-                solid foundation in my tech career. I started my professional career in 2015, but 
-                it was in 2019 that I discovered the dynamic ecosystem of startups. Since then, 
-                I have thoroughly enjoyed the challenge of developing various projects from 
-                conception to rapid growth. My enthusiasm for continuing to evolve as a developer 
-                is stronger than ever, with a keen interest in the expanding field of AI.`}
+                {`My interest in technology started in the 1990s when my family got an IBM PC. 
+                This early experience made me curious about tech, and over the years, that curiosity kept growing. 
+                Following this interest, I studied `}
+                <span className={styles.highlight}>Technical Engineering in Computer Management at the University of Alicante</span>
+                {`, which gave me a strong base for my career. I started my professional career in 2015, but it was in 2019 when 
+                I discovered the exciting world of startups. Since then, I have enjoyed working on different projects, 
+                from the first idea to fast development. I am very motivated to keep growing as a developer, 
+                especially in the fast-moving field of AI.`}
             </p>
             <p>
-                {`As a `}<span className={styles.highlight}>Full-Stack developer</span>{`, 
-                I possess a comprehensive command of development from start to finish, but I find 
-                special joy in tackling front-end challenges using React and TypeScript. This combination of skills has enabled 
-                me to contribute significantly to projects, whose technological complexity has 
-                resulted in an extraordinarily rewarding experience.`}
+                {`As a `}<span className={styles.highlight}>Full-Stack developer</span>{`, I understand the whole process of building software, 
+                but I especially enjoy working on the front-end using React and TypeScript. These tools have helped me make strong contributions to 
+                different projects, and I find it very rewarding to solve technical problems.`}
             </p>
             <p>
-                {`For the past three years, I have lived in `}<span className={styles.highlight}>Trondheim, Norway</span>
-                {`, where my appreciation for nature has deepened. Activities such as bouldering, hiking, and 
-                skiing have become cherished pastimes. These adventures not only challenge me physically but
-                  also provide a revitalizing break from the digital world, ensuring a vital balance.`}
+                {`For the last three years, I’ve been living in `} <span className={styles.highlight}>Trondheim, Norway</span>{`. Here, 
+                I’ve grown to love nature more than ever. I enjoy bouldering, hiking, and skiing, which are great ways to stay active and 
+                take a break from screens. These activities help me keep a healthy balance in life.`}
             </p>
             <p>
-                {`My blend of startup experience, full-stack development skills, and adventurous 
-                spirit, positions me well for the tech world's dynamic challenges. This combination 
-                has honed my `}<span className={styles.highlight}>problem-solving abilities and adaptability</span>
-                {`, making me ready to contribute effectively to evolving technological landscapes and innovations.`}
+                {`My experience in the startup ecosystem, my full-stack development skills, and my adventurous spirit 
+                prepare me well for the continuous changes in the tech world. This combination has improved my `}
+                <span className={styles.highlight}>problem-solving abilities and adaptability</span>
+                {`, and I feel ready to be part of new technology projects and ideas.`}
             </p>
-        </div >
+        </div>
     )
 }
