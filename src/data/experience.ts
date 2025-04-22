@@ -18,7 +18,7 @@ export const trackingplanData: ExperienceData = {
         "Code Review - Active participation in code reviews, committed to maintaining high quality standards and promoting best practices within the development team.",
         "Deploy Management - Responsibility for managing automatic deploys using AWS CodePipeline, ensuring continuous and stable deliveries in both development and production environments.",
         "Interdisciplinary Collaboration - Close collaboration with development and UX/UI design teams, ensuring that technical functionalities align with user experience objectives.",
-        "Incident Management - Responsibility for reporting, tracking, and resolving errors, adopting a proactive approach to maintain system stability and reliability. Collaboration with various departments to facilitate quick resolution of incidents, thus contributing to product quality and user satisfaction."
+        "On-call Rotation - Responsibility for reporting, tracking, and resolving errors, adopting a proactive approach to maintain system stability and reliability. Collaboration with various departments to facilitate quick resolution of incidents, thus contributing to product quality and user satisfaction."
     ],
     labels: ["React", "TypeScript", "Cypress", "Python", "AWS", "Clickhouse", "SQL", "GitHub", "Notion"]
 };
