@@ -14,7 +14,7 @@ export default function BackgroundEffect(props: BackgroundEffectProps) {
     const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
     useEffect(() => {
-        const handleMouseMove = (e: any) => {
+        const handleMouseMove = (e: MouseEvent) => {
             setMousePosition({ x: e.pageX, y: e.pageY });
         };
 
@@ -37,4 +37,4 @@ export default function BackgroundEffect(props: BackgroundEffectProps) {
             {children}
         </div>
     );
-};
+}
