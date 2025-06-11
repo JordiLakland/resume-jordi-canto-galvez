@@ -12,7 +12,10 @@ export const optoscaleData: ExperienceData = {
     role: "Full-Stack Developer",
     company: "OptoScale",
     companyLink: "https://optoscale.no/?lang=en",
-    roleFunctions: ["Font-End Development", "Back-End Development"],
+    roleFunctions: [
+        "Full‑Stack Development – Recently joined the development team at OptoScale, currently in the onboarding phase. Preparing to contribute to the evolution of the company’s web portal and internal tools.",
+        "Onboarding & System Familiarization – Actively engaged in understanding the architecture, workflows, and data models behind the platform. Participating in onboarding sessions, technical training, and system exploration to ensure a smooth integration into the team.Full‑Stack Development – Recently joined the development team at OptoScale, currently in the onboarding phase. Preparing to contribute to the evolution of the company’s web portal and internal tools. Onboarding & System Familiarization – Actively engaged in understanding the architecture, workflows, and data models behind the platform. Participating in onboarding sessions, technical training, and system exploration to ensure a smooth integration into the team.",
+    ],
     labels: ["React", "TypeScript", "NestJS", "Prisma", "PostgreSQL", "Docker"],
 };
 
