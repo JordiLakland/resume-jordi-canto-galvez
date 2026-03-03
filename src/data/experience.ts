@@ -13,8 +13,11 @@ export const optoscaleData: ExperienceData = {
     company: "OptoScale",
     companyLink: "https://optoscale.no/?lang=en",
     roleFunctions: [
-        "Full‑Stack Development – Recently joined the development team at OptoScale, currently in the onboarding phase. Preparing to contribute to the evolution of the company’s web portal and internal tools.",
-        "Onboarding & System Familiarization – Actively engaged in understanding the architecture, workflows, and data models behind the platform. Participating in onboarding sessions, technical training, and system exploration to ensure a smooth integration into the team.Full‑Stack Development – Recently joined the development team at OptoScale, currently in the onboarding phase. Preparing to contribute to the evolution of the company’s web portal and internal tools. Onboarding & System Familiarization – Actively engaged in understanding the architecture, workflows, and data models behind the platform. Participating in onboarding sessions, technical training, and system exploration to ensure a smooth integration into the team.",
+        "Layout Refactoring & Architectural Simplification – Refactored the core application layout, eliminating over 4,000 lines of redundant code, introducing clearer separation of concerns, and significantly improving mobile responsiveness and overall user experience.",
+        "End-to-End Feature Implementation – Responsible for the full implementation of features from concept to production, actively contributing to technical design discussions and ensuring scalable, maintainable solutions across Front-End and Back-End.",
+        "Architecture & Technical Standards – Contributing to architectural discussions and helping define development workflows and coding standards that support scalability and long-term project health.",
+        "Code Quality & Engineering Practices – Leading and contributing to code reviews, promoting best practices, and continuously improving readability, consistency, and maintainability across the codebase.",
+        "Cross-Functional Collaboration – Working closely with AI, product, and design teams to translate business and data-driven requirements into robust technical solutions.",
     ],
     labels: ["React", "TypeScript", "NestJS", "Prisma", "PostgreSQL", "Docker"],
 };
