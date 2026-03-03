@@ -46,11 +46,13 @@
 }
 
 .externalLinkIcon {
-    height: 1rem;
-    width: 1rem;
+    height: 18px;
+    width: 18px;
     opacity: 0;
     transform: translateY(2px);
-    transition: opacity 150ms ease, transform 150ms ease;
+    transition:
+        opacity 150ms ease,
+        transform 150ms ease;
     color: var(--color-slate);
 }
 
@@ -84,7 +86,6 @@
 .companyLink:hover .title {
     color: var(--color-green);
 }
-
 
 @media (max-width: 1024px) {
     .sectionCardContainer {
