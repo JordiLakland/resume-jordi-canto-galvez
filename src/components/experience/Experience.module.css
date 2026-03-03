@@ -22,7 +22,10 @@
 }
 
 .title {
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
     font-weight: 600;
     color: var(--color-white);
     margin-bottom: 1rem;
@@ -40,6 +43,21 @@
     width: 0.75rem;
     fill: var(--color-green);
     margin-right: 0.5rem;
+}
+
+.externalLinkIcon {
+    height: 1rem;
+    width: 1rem;
+    opacity: 0;
+    transform: translateY(2px);
+    transition: opacity 150ms ease, transform 150ms ease;
+    color: var(--color-slate);
+}
+
+.companyLink:hover .externalLinkIcon {
+    opacity: 1;
+    transform: translateY(0);
+    color: var(--color-green);
 }
 
 .label {

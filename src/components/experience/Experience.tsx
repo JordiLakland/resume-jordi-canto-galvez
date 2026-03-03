@@ -6,6 +6,7 @@ import {
     optoscaleData,
 } from "../../data/experience";
 import CaretRightIcon from "../icons/CaretRight";
+import ExternalLinkIcon from "../icons/ExternalLink";
 
 import styles from "./Experience.module.css";
 
@@ -42,6 +43,7 @@ function SectionCard(props: SectionCardProps) {
                 <div className={styles.sectionCardContent}>
                     <div className={styles.title}>
                         <span>{title}</span>
+                        <ExternalLinkIcon className={styles.externalLinkIcon} />
                     </div>
                     <ul>
                         {roleFunctions.map((roleFunction, index) => (
