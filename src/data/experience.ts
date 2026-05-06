@@ -13,7 +13,6 @@ export const optoscaleData: ExperienceData = {
     company: "OptoScale",
     companyLink: "https://optoscale.no/?lang=en",
     roleFunctions: [
-        "Layout Refactoring & Architectural Simplification – Refactored the core application layout, eliminating over 4,000 lines of redundant code, introducing clearer separation of concerns, and significantly improving mobile responsiveness and overall user experience.",
         "End-to-End Feature Implementation – Responsible for the full implementation of features from concept to production, actively contributing to technical design discussions and ensuring scalable, maintainable solutions across Front-End and Back-End.",
         "Architecture & Technical Standards – Contributing to architectural discussions and helping define development workflows and coding standards that support scalability and long-term project health.",
         "Code Quality & Engineering Practices – Leading and contributing to code reviews, promoting best practices, and continuously improving readability, consistency, and maintainability across the codebase.",
