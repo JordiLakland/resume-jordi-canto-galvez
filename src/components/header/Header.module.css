@@ -6,8 +6,18 @@
 
 .hello {
     font-family: 'SourceCodePro';
-    color: var(--color-green);
+    color: var(--accent);
     margin-bottom: 1rem;
+}
+
+.hello::before {
+    content: '> ';
+    opacity: 0.6;
+}
+
+.headerContainer h1 {
+    color: var(--color-lightest-slate);
+    text-shadow: 0 0 24px var(--accent-soft);
 }
 
 .position {

@@ -10,6 +10,8 @@
 
 .title {
     font-size: 3rem;
+    color: var(--color-lightest-slate);
+    text-shadow: 0 0 24px var(--accent-soft);
 }
 
 .message {
@@ -31,11 +33,13 @@
     border: 1px solid var(--color-green);
     border-radius: 0.5rem;
     cursor: pointer;
-    transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
 .contactButton:hover {
     transform: scale(1.1);
+    background-color: var(--accent-soft);
+    box-shadow: 0 0 20px var(--accent-glow);
 }
 
 

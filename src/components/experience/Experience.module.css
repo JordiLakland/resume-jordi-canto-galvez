@@ -3,16 +3,23 @@
     gap: 2rem;
     margin-bottom: 3rem;
     padding: 1rem;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    transition: background-color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
 }
 
 .sectionCardContainer:hover {
-    background-color: var(--color-white-opacity);
-    border-radius: 1rem;
+    background-color: rgba(10, 16, 28, 0.6);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-color: var(--accent-soft);
+    box-shadow: 0 0 24px var(--accent-soft), inset 0 0 12px var(--accent-soft);
 }
 
 .sectionCardHeader {
     width: 210px;
-    font-size: 1rem;
+    font-family: 'SourceCodePro';
+    font-size: 0.875rem;
     font-weight: 600;
     color: var(--color-slate);
 }
@@ -88,13 +95,15 @@
 }
 
 @media (max-width: 1024px) {
-    .sectionCardContainer {
-        padding: 0;
-    }
-
+    /* No hover on touch screens: show the glass card by default for legibility. */
+    .sectionCardContainer,
     .sectionCardContainer:hover {
-        background-color: transparent;
-        border-radius: 1rem;
+        padding: 1.25rem;
+        background-color: rgba(10, 16, 28, 0.6);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        border-color: var(--accent-soft);
+        box-shadow: 0 0 16px var(--accent-soft), inset 0 0 12px var(--accent-soft);
     }
 
     .companyLink {

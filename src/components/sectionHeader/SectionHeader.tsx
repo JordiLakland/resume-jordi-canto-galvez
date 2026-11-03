@@ -13,7 +13,7 @@ export default function SectionHeader(props: SectionHeaderProps) {
 
     return (
         <div className={cssClass(styles.sectionHeaderContainer, className)}>
-            <h2>{title.toUpperCase()}</h2>
+            <h2><span className={styles.prefix}>{'//'}</span>{title.toUpperCase()}</h2>
         </div>
     )
 }

@@ -6,11 +6,36 @@ p {
     display: block;
     height: 225px;
     width: 225px;
-    border: 5px solid var(--color-lightest-navy);
+    border: 2px solid var(--accent);
+    box-shadow: 0 0 24px var(--accent-glow);
     border-radius: 50%;
     margin: 0 auto;
     margin-bottom: 1rem;
     overflow: hidden;
+    position: relative;
+    isolation: isolate;
+}
+
+/* TRON treatment on top of the B&W photo: accent tint + scanlines + edge vignette. */
+.profilePhotoContainer::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: var(--accent);
+    mix-blend-mode: color;
+    pointer-events: none;
+}
+
+.profilePhotoContainer::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    background:
+        repeating-linear-gradient(to bottom, rgba(5, 7, 13, 0.35) 0 1px, transparent 1px 3px),
+        radial-gradient(circle, transparent 55%, rgba(5, 7, 13, 0.7) 100%);
+    pointer-events: none;
 }
 
 .profilePhoto {
@@ -20,6 +45,7 @@ p {
     object-fit: cover;
     transform: scale(1.75);
     padding-bottom: 45px;
+    filter: contrast(1.2) brightness(0.95);
 }
 
 .highlight {

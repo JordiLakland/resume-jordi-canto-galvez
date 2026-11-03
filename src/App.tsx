@@ -1,5 +1,4 @@
 import About from './components/about/About';
-import BackgroundEffect from './components/backgroundEffect/backgroundEffect';
 import Contact from './components/contact/Contact';
 import Experience from './components/experience/Experience';
 import Header from './components/header/Header';
@@ -7,6 +6,7 @@ import Footer from './components/footer/Footer';
 import Languages from './components/skill/Languages';
 import SectionHeader from './components/sectionHeader/SectionHeader';
 import SkillIconsView from './components/skill/Skills';
+import TronBackground from './components/tronScene/TronBackground';
 import { framesWorksAndLibraries, programmingLanguages, toolsAndPlatforms } from './data/skills';
 
 import './assets/fonts/fonts.css';
@@ -14,7 +14,8 @@ import styles from './App.module.css';
 
 function App() {
   return (
-    <BackgroundEffect>
+    <>
+      <TronBackground />
       <div className={styles.container}>
         <Header className={styles.headerContent} />
         <main className={styles.mainContent}>
@@ -51,7 +52,7 @@ function App() {
           <Footer />
         </main>
       </div>
-    </BackgroundEffect>
+    </>
   )
 }
 

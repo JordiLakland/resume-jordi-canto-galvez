@@ -3,13 +3,25 @@
   --color-light-navy: #112240;
   --color-lightest-navy: #233554;
   --color-navy-pointer: #0a459e;
-  --color-slate: #8892b0;
-  --color-light-slate: #a8b2d1;
+  --color-slate: #c3cbe2;
+  --color-light-slate: #d4daec;
   --color-lightest-slate: #ccd6f6;
   --color-white: #e6f1ff;
   --color-white-opacity: rgb(230, 241, 255, 0.1);
-  --color-green: #64ffda;
-  --color-green-opacity: rgb(100, 255, 218, 0.1);
+  --color-bg: #05070d;
+  --color-cyan: #00e5ff;
+  --color-orange: #ff8a00;
+
+  /* Accent shifts from cyan (frontend) to orange (backend) while scrolling.
+     --accent-rgb is updated by TronBackground. */
+  --accent-rgb: 0 229 255;
+  --accent: rgb(var(--accent-rgb));
+  --accent-soft: rgb(var(--accent-rgb) / 0.12);
+  --accent-glow: rgb(var(--accent-rgb) / 0.35);
+
+  /* Legacy names kept so existing modules follow the accent. */
+  --color-green: var(--accent);
+  --color-green-opacity: rgb(var(--accent-rgb) / 0.1);
 
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -37,7 +49,7 @@ body {
   min-width: 320px;
   margin: 0 auto;
 
-  background-color: var(--color-navy);
+  background-color: var(--color-bg);
   color: var(--color-slate);
   overflow-x: hidden;
 }
@@ -55,6 +67,11 @@ a {
 a:hover {
   text-decoration: none;
   color: var(--color-green);
+}
+
+::selection {
+  background: var(--accent-soft);
+  color: var(--color-white);
 }
 
 h1 {

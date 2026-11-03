@@ -15,7 +15,8 @@
 }
 
 .icon:hover {
-    fill: var(--color-white);
+    fill: var(--accent);
+    filter: drop-shadow(0 0 6px var(--accent-glow));
 }
 
 .resumeLabel {
@@ -30,6 +31,7 @@
 }
 
 .resumeLabel:hover {
-    color: var(--color-white);
-    border-color: var(--color-white);
+    color: var(--accent);
+    border-color: var(--accent);
+    box-shadow: 0 0 10px var(--accent-soft);
 }

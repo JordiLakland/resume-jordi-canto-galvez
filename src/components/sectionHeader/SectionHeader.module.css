@@ -5,10 +5,22 @@ h2 {
     padding: 0.875rem 3rem;
 }
 
+.sectionHeaderContainer h2 {
+    font-family: 'SourceCodePro';
+    letter-spacing: 0.1em;
+}
+
+.prefix {
+    color: var(--accent);
+    margin-right: 0.5rem;
+}
+
 .sectionHeaderContainer {
     position: sticky;
     top: 0;
-    background-color: transparent;
+    background-color: rgba(5, 7, 13, 0.6);
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--accent-soft);
     z-index: 1000;
 }

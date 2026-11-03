@@ -5,6 +5,9 @@
 }
 
 .navLabel {
+    font-family: 'SourceCodePro';
+    font-size: 0.875rem;
+    letter-spacing: 0.1em;
     font-weight: 600;
     color: var(--color-slate);
 }
@@ -15,8 +18,8 @@
 
 .active .navIndicator {
     width: 4rem;
-    background-color: #e2e8f0;
-
+    background-color: var(--accent);
+    box-shadow: 0 0 8px var(--accent-glow);
 }
 
 .navIndicator {
@@ -34,7 +37,7 @@ li {
 
 .menuItem:hover .navIndicator {
     width: 4rem;
-    background-color: #e2e8f0;
+    background-color: var(--color-white);
 }
 
 .menuItem:hover .navLabel {
